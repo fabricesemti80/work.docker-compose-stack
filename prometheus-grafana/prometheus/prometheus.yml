@@ -82,7 +82,7 @@ scrape_configs:
     scrape_interval: 6s
     scrape_timeout: 5s
     static_configs:
-      - targets: #['INF5052-NUGET.gb.sportingindex.com:9182','10.0.2.5:9182']
+      - targets:
         - INF5052-NUGET.gb.sportingindex.com:9182
         - inf7070-tcdev.gb.sportingindex.com:9182
         - inf7093-wshark.gb.sportingindex.com:9182
@@ -90,5 +90,12 @@ scrape_configs:
         - INF7099-CON.gb.sportingindex.com:9182
         - 10.23.41.210:9182
         - 10.23.41.211:9182
+
+
+  - job_name: 'sig_servers'
+    scrape_interval: 6s
+    scrape_timeout: 5s
+    static_configs:
+      - targets:
         - inf7638-con.sig.ads:9182
         - DC1INFNPS01P.sig.ads:9182
