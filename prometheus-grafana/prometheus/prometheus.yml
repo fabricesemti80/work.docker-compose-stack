@@ -99,3 +99,14 @@ scrape_configs:
       - targets:
         - inf7638-con.sig.ads:9182
         - DC1INFNPS01P.sig.ads:9182
+        - VE-PXY-01.sig.ads:9182
+        - VE-PXY-02.sig.ads:9182
+        - VE-PXY-03.sig.ads:9182
+        - VE-PXY-04.sig.ads:9182
+        - VE-PXY-05.sig.ads:9182
+        - VE-PXY-06.sig.ads:9182
+        - VE-ONE-01.sig.ads:9182
+        - VE-MNT-01.sig.ads:9182
+        - VE-MNT-02.sig.ads:9182
+        - VE-ENT-01.sig.ads:9182
+        - VE-CON-01.sig.ads:9182
